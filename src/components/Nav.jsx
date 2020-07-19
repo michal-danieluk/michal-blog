@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
 import { Link } from "gatsby";
 
@@ -7,18 +8,23 @@ export default function Nav() {
       <div className="container flex">
         <div>
           <Link to="/" className="brand">
-            <span className="emoji">⛰️</span> Michal's Lair
-          </Link>
+            <span className="emoji">⛰️</span>Michal Lair</Link>
         </div>
         <div>
           <li className="navli">
-            <Link to="/me">Autor</Link>
+            <Link to="/me" className="navli">
+              Autor
+            </Link>
           </li>
           <li className="navli">
-            <Link to="/blog">Blog</Link>
+            <Link to="/blog" className="navli">
+              Blog
+            </Link>
           </li>
           <li className="navli">
-            <Link to="/guides">Guides</Link>
+            <Link to="/guides" className="navli">
+              Guides
+            </Link>
           </li>
         </div>
       </div>

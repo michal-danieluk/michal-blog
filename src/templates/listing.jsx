@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
