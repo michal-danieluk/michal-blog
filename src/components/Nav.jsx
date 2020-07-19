@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react";
+import { Link } from "gatsby";
 
 export default function Nav() {
   return (
@@ -7,15 +7,21 @@ export default function Nav() {
       <div className="container flex">
         <div>
           <Link to="/" className="brand">
-            <span className="emoji">💾</span> Tania Rascia
+            <span className="emoji">⛰️</span> Michal's Lair
           </Link>
         </div>
         <div>
-          <Link to="/me">About</Link>
-          <Link to="/blog">Blog</Link>
-          <Link to="/guides">Guides</Link>
+          <li className="navli">
+            <Link to="/me">Autor</Link>
+          </li>
+          <li className="navli">
+            <Link to="/blog">Blog</Link>
+          </li>
+          <li className="navli">
+            <Link to="/guides">Guides</Link>
+          </li>
         </div>
       </div>
     </nav>
-  )
+  );
 }
