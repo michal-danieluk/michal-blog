@@ -4,11 +4,19 @@ import "./About.css";
 class About extends Component {
   render() {
     return (
-      <div className="about">
-        <h1>
-          Edit About component or pages/about.jsx to include your information.
-        </h1>
-      </div>
+      <main>
+        <header>
+          <h1>Cześć nazywam sie Michał.</h1>
+        </header>
+        <section>
+          <article>
+            <p>
+              No i to by było na tyle. <br />
+              Ok no może nie do końca.
+            </p>
+          </article>
+        </section>
+      </main>
     );
   }
 }

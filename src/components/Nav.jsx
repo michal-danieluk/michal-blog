@@ -8,7 +8,7 @@ export default function Nav() {
       <div className="container flex">
         <div>
           <Link to="/" className="brand">
-            <span className="emoji">⛰️</span>Michal Lair</Link>
+            Michal Lair</Link>
         </div>
         <div>
           <li className="navli">
