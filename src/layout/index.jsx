@@ -8,14 +8,16 @@ export default class MainLayout extends React.Component {
   render() {
     const { children } = this.props;
     return (
-      <div className="layout-container">
+    
+      <>
+          <Nav />
         <Helmet>
           <meta name="description" content={config.siteDescription} />
           <html lang="pl" />
         </Helmet>
-        <Nav />
-        {children}
-      </div>
+      
+       <main>{children}</main>
+      </>
     );
   }
 }

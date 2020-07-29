@@ -20,15 +20,16 @@ class PostListing extends React.Component {
     return postList;
   }
 
-  render() {
-    const postList = this.getPostList();
+    render() {
+       const postList = this.getPostList();
     return (
       <div className="post--display flex">
         {
           /* Your post list here. */
           postList.map((post) => (
               <Link to={post.path} key={post.title} className="post--li">
-                {post.title}
+                <h2>{post.title}</h2>
+                <p className="post--li-excerpt">{post.excerpt}</p>
               </Link>
             
           ))

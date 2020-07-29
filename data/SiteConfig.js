@@ -13,7 +13,7 @@ const config = {
   disqusShortname: "", // Disqus shortname.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
-  postsPerPage: false, // Amount of posts displayed per listing page.
+  postsPerPage: 6, // Amount of posts displayed per listing page.
   userName: "Advanced User", // Username to display in the author segment.
   userEmail: "AdvancedUser@example.com", // Email used for RSS feed's author segment
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
@@ -30,12 +30,12 @@ const config = {
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
+      url: "https://twitter.com/michaldanieluk",
       iconClassName: "fa fa-twitter"
     },
     {
       label: "Email",
-      url: "mailto:vagr9k@gmail.com",
+      url: "mailto:michal.danieluk@gmail.com",
       iconClassName: "fa fa-envelope"
     }
   ],

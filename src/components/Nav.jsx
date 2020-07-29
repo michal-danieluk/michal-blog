@@ -8,7 +8,7 @@ export default function Nav() {
       <div className="container flex">
         <div>
           <Link to="/" className="brand">
-            Michal Lair</Link>
+            Michal.Danieluk </Link>
         </div>
         <div>
           <li className="navli">
